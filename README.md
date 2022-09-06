@@ -1,19 +1,12 @@
 # current-exchange
+```
+Не забываем про CORS-ы, иначе текущая валюта (зависит от локации броузера) не загрузится, и по умолчанию будут выставлены рубли. Есть расширения для разных броузеров.
+```
 
 ## Project setup
 ```
+git clone ... (сами понимаете)
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
